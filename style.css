@@ -1,0 +1,88 @@
+
+.header{
+    background-color: darkorange;
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    height: 6rem;
+    padding-top: 2.5rem;
+    background-image: url(https://farukyalcinzoo.com/wp-content/uploads/2020/11/sari.svg);
+    background-repeat: none;
+    background-size: cover;
+    margin: 0;
+}
+.title{
+    height: 4rem;
+    padding-top: 2.5rem;
+
+}
+.nav{
+    display: inline;
+    float: right;
+    font-size: 1.7rem;
+
+}
+.nav a{
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+table {
+    margin:3rem 2rem 2rem 3rem;
+    width:90%;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    }
+th, td {
+    border:1px solid black;
+    border-style: solid;
+    margin: 5px;
+    padding: 20px;
+    width: 12rem;
+}
+th{
+    background-color: rgb(212, 210, 210);
+       
+}
+tr:nth-child(2n+0){
+    background-color: antiquewhite;
+}
+tr:hover{
+    background-color: rgb(237, 237, 198);
+}
+button{
+    background-color: black;
+    color: white;
+    font-size: 1.3rem;
+    right: 2px;
+}
+button:hover{
+    background-color: darkorange;
+    border-color: darkorange;
+}
+h2{
+    text-align: center;
+}
+.title img{
+    width: 4.5rem;
+    position: absolute;
+    top: 3rem;
+    left: 3rem
+}
+
+img{
+    margin: auto;
+    image-rendering: auto;
+}
+.pictures{
+    margin-left: 5%;
+    /* margin-bottom: 4rem; */
+}
+.pictures img{
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 3px 9px 9px gray;
+    width: 23%;
+    /* height: 180px; */
+}
